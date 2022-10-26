@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content:center;
+    height: 100vh;
+    align-items:center;
+    text-align:center;
+    background: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form{
+    background-color: yellow;
+    padding:20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    border-radius:10px;
+    letter-spacing:1px;
+    color:blue;
+    margin:10px;
+}
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding:15px;
+    font-size: 30px;
+    border: solid 8px rgb(233, 9, 128);
+    color:blue;
+}
+.input::placeholder{
+    color:brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.btn{
+    margin:20px;
+    padding:10px;
+    width: 75%;
+    border-radius: 20px;
+    background-color: aqua;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 5px rgb(11, 67, 208);
+    color:rgb(251, 0, 151);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.btn:hover{
+    filter: brightness(.8);
+}
+.score{
+    text-align:right;
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
